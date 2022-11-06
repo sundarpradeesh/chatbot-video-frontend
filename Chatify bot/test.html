@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 1280px; 
+  height: 720px;
+}
+
+
+.profileimg{
+  position:fixed;
+  top:0;
+  width:13%;
+  height: 25%;
+  padding: 50px;
+  right: 0;
+}
+
+.logout{
+  position:fixed;
+  top:0;
+  width:27%;
+  height: 22%;
+  padding: 56px;
+  right: 0;
+}
+
+.chat{
+  position:fixed;
+  bottom:0;
+  width:13%;
+  height: 25%;
+  padding: 50px;
+  right: 0;
+}
+
+a:link, a:visited {
+  background-color: #c99219;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  color: #a47619;
+  width: 70%;
+  padding: 50px;
+}
+
+.chatify{
+  position: fixed;
+  top: 0;
+  color: #c99219;
+  width: 50%;
+  padding: 35px;
+  padding-top: 4%;
+  height: 50%;
+  font-size: 210%;
+  left: 0;
+}
+
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="bot.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="logout">
+  <a href="logout.html" target="_blank">LogOut</a></div>
+<div class="chat">
+  <img src="bot4.png" height=80 width=75>
+</div>
+
+<div class="chatify">
+  <h1>Chatify-BOT</h1>
+</div>
+
+<div class="content">
+  <h1>ABOUT US</h1>
+  <p>This Chatify-Bot website is built to help and guide 
+     the engineering students and the professional software developers
+     in the field of Information Technology.Our ChatBot can easily understand's 
+     your question & shows the result faster.
+    </p>
+</div>
+<div class="profileimg">
+  <img src="profile.png" height=60 width=60>
+</div>
+</body>
+</html>
